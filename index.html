@@ -36,7 +36,7 @@
                             <li><i class="fas fa-search"></i></li>
                             <li><i class="fas fa-bell"></i></li>
                             <li class="header__user">
-                                <img src="src/images/user.png" alt="Avatar usuário" />
+                                <img src="./img/avatar-user.png" alt="Avatar usuário" />
                                 <i class="fas fa-sort-down"></i>
                             </li>
                         </ul>
@@ -48,7 +48,12 @@
             <main>
                 <!-- Banner -->
                 <div class="banner">
-                    <img class="banner__poster" src="./img/spiderheadBackground.jpg" alt="Banner filme Spiderhead" />
+                    <div>
+                        <img class="bannerN" src="./img/N_da_netflix-removebg.png" alt="N da Netflix"/>
+                        <span class="banner_filme">FILME</span>
+                    </div>
+                    
+                    <span class="banner__poster">Spiderhead</span>
                     <span class="banner__subtitle">Em uma penitenciária de última geração, um detento participa de um
                         experimento com drogas que controlam as emoções para um gênio da indústria farmacêutica.
                     </span>
@@ -64,10 +69,161 @@
                 </div>
                 <!-- Fim do Banner -->
 
+                <!-- Trilho – sem animação  -->
+                <div class="category">
+                    <p class="category__title">Minha lista</p>
+                    <section>
+                        <div class="item">
+                            <img src="./img/poster-01.jpg" alt="Família em concerto" class="img-galeria"/>
+                        </div>
+                        <div class="item">
+                            <img src="./img/poster-02.jpg" alt="Gossip Girl" class="img-galeria"/>
+                        </div>
+                        <div class="item">
+                            <img src="./img/poster-03.jpg" alt="Gilmore Girls" class="img-galeria"/>
+                        </div>
+                        <div class="item">
+                            <img src="./img/poster-04.jpg" alt="Harry Potter" class="img-galeria"/>
+                        </div>
+                        <div class="item">
+                            <img src="./img/poster-05.jpg" alt="Velozes e Furiosos" class="img-galeria"/>
+                        </div>
+                    </section>
+                </div>
+                <!-- Fim do Trilho – sem animação  -->
+
+                <!-- Trilho – com animação hover -->
+                <div class="category">
+                    <p class="category__title">Em alta</p>
+                    <section>
+                        <div class="item -animation">
+                            <img src="./img/poster-06.jpg" alt="Julie and the Phantoms" class="img-galeria"/>
+                        </div>
+                        <div class="item -animation">
+                            <img src="./img/poster-07.png" alt="Se ela dança eu danço" class="img-galeria"/>
+                        </div>
+                        <div class="item -animation">
+                            <img src="./img/poster-08.jpg" alt="O melhor de mim" class="img-galeria"/>
+                        </div>
+                        <div class="item -animation">
+                            <img src="./img/poster-09.jpg" alt="The Vampire Diares" class="img-galeria"/>
+                        </div>
+                        <div class="item -animation">
+                            <img src="./img/poster-10.jpg" alt="The Originals" class="img-galeria"/>
+                        </div>
+                    </section>
+                </div>
+                <!-- Fim do Trilho – com animação hover -->
+
+                <!-- Trilho – com animação e efeito slider  -->
+                <div class="category">
+                    <p class="category__title">Séries excêntricas de humor ácido</p>
+
+                    <div class="wrapper">
+                        <section id="section1">
+                            <a href="#section3" class="arrow__btn"></a>
+
+                            <div class="item -animation -animation">
+                                <img src="./img/poster-11.jpg" alt="Queen Charlotte" class="img-galeria"/>
+                            </div>
+
+                            <div class="item -animation">
+                                <img src="./img/poster-12.jpg" alt="Bridgerton" class="img-galeria"/>
+                            </div>
+
+                            <div class="item -animation">
+                                <img src="./img/poster-13.jpg" alt="The Witcher" class="img-galeria"/>
+                            </div>
+                            <div class="item -animation">
+                                <img src="./img/poster-14.jpg" alt="Shadowhunters" class="img-galeria"/>
+                            </div>
+                            <div class="item -animation">
+                                <img src="./img/poster-15.jpg" alt="Fate a Saga Winx" class="img-galeria"/>
+                            </div>
+                            <a href="#section2" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+                        </section>
+                        <section id="section2">
+                            <a href="#section1" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+                            <div class="item -animation">
+                                <img src="./img/poster-16.jpeg" alt="Anne with an E" class="img-galeria"/>
+                            </div>
+                            <div class="item -animation">
+                                <img src="./img/poster-17.jpg" alt="Minha vida com a família Walter" class="img-galeria"/>
+                            </div>
+                            <div class="item -animation">
+                                <img src="./img/poster-18.jpg" alt="Riverdale" class="img-galeria"/>
+                            </div>
+                            <div class="item -animation">
+                                <img src="./img/poster-19.jpg" alt="Pretty Little Liars" class="img-galeria"/>
+                            </div>
+                            <div class="item -animation">
+                                <img src="./img/poster-20.jpg" alt="Friends" class="img-galeria"/>
+                            </div>
+                            <a href="#section3" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+                        </section>
+                        <section id="section3">
+                            <a href="#section2" class="arrow__btn"><i class="fas fa-angle-left"></i></a>
+                            <div class="item -animation">
+                                <img src="./img/poster-21.jpg" alt="How I Met Your Mother" class="img-galeria"/>
+                            </div>
+                            <div class="item -animation">
+                                <img src="./img/poster-22.jpg" alt="Turbulências de Verão" class="img-galeria"/>
+                            </div>
+                            <div class="item -animation">
+                                <img src="./img/poster-23.jpg" alt="Grey's Anatomy" class="img-galeria"/>
+                            </div>
+                            <div class="item -animation">
+                                <img src="./img/poster-24.jpg" alt="The Gifted" class="img-galeria"/>
+                            </div>
+                            <div class="item -animation">
+                                <img src="./img/poster-25.jpg" alt="True Blood" class="img-galeria"/>
+                            </div>
+                            <a href="#section1" class="arrow__btn"><i class="fas fa-angle-right"></i></a>
+                        </section>
+                    </div>
+                </div>
+                <!-- Fim do Trilho – com animação e efeito slider  -->
+
             </main>
 
             <footer>
-                <!-- Rodapé do site -->
+                <div class="social-links">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+
+                <div class="link-content">
+                    <div class="link-content__info">
+                        <ul>
+                            <li>Idioma e legendas</li>
+                            <li>Imprensa</li>
+                            <li>Privacidade</li>
+                            <li>Entre em contato</li>
+                        </ul>
+                        <ul>
+                            <li>Audiodescrição</li>
+                            <li>Relações com investidores</li>
+                            <li>Avisos legais</li>
+                        </ul>
+                        <ul>
+                            <li>Centro de ajuda</li>
+                            <li>Carreiras</li>
+                            <li>Preferência de cookies</li>
+                        </ul>
+                        <ul>
+                            <li>Cartão pré-pago</li>
+                            <li>Termos de uso</li>
+                            <li>informações corporativas</li>
+                        </ul>
+                    </div>
+                    <div class="link-content__service">
+                        <button class="link-content__service-code">Código do serviço</button>
+                    </div>
+                    <div class="link-content__copyright">
+                        <span>© 1997-2024 Netflix, Inc.&nbsp;&nbsp;&lrm;</span>
+                    </div>
             </footer>
 
         </div>
